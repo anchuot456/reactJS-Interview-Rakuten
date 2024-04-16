@@ -37,6 +37,21 @@ const Home = ()=>{
     },[])
     return(
         <div className="home w-full h-screen" style={{"backgroundColor":"#F7F7F7"}}>
+            <div>
+                <b>Question 1:</b>
+                <p>Because setTimeout function, console will delay rendering "B" for 1000 milisecond. So the answer is "A C B"</p>
+            </div>
+            <div>
+                <b>Question 2:</b>
+                <p>First the program create count variable and set value of 10.
+                Then useEffect function runs before rendering, count = count * 0.5 = 5
+                So it should display "Your counter is: 5"
+                </p>
+            </div>
+            <div>
+                <b>Question 3:</b>
+                <p>I have created a responsive grid with product card </p>
+            </div>
             <div className="p-4 flex relative grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
                 {products.map((product,index)=>{
                     return(<ProductCard
