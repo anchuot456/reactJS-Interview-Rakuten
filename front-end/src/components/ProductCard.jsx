@@ -15,7 +15,7 @@ const ProductCard = (props)=>{
                 <div className="flex" style={{"color":"#BF0000"}}>
                     <p>
                         <span className="text-xl relative"><b>{newPrice}</b></span>
-                        <span className="relative text-sm"> Neuf</span>
+                        <span className="relative text-sm"><b> Neuf</b></span>
                     </p>
                 </div>
                 <div className="flex">
