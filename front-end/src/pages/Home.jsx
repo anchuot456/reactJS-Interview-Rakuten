@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import ProductCard from "../components/ProductCard";
+import "../styles/Home.css"
 
 const Home = ()=>{
     const [products,setProducts] = useState([]);
@@ -52,7 +53,7 @@ const Home = ()=>{
                 <b>Question 3:</b>
                 <p>I have created a responsive grid with product card </p>
             </div>
-            <div className="p-4 flex relative grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
+            <div className="m-4 product-table w-auto flex relative grid gap-4 xl:grid-cols-4 lg:grid-cols-3">
                 {products.map((product,index)=>{
                     return(<ProductCard
                     key={index}

@@ -1,0 +1,18 @@
+.product-table{
+    max-width: 1125px;
+    grid-template-columns: auto auto auto;
+}
+
+@media screen and (max-width: 1157px){
+    .product-table{
+        max-width: 750px;
+        grid-template-columns: auto auto ;
+    }
+}
+
+@media screen and (max-width: 782px){
+    .product-table{
+        max-width: 375px;
+        grid-template-columns: auto;
+    }
+}

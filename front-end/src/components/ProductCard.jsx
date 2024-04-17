@@ -5,7 +5,7 @@ const ProductCard = (props)=>{
 
     console.log(props);
     return(
-        <div className="productCard flex relative h-auto m-4 bg-white" style={{"width":"343px"}}>
+        <div className="productCard flex relative h-auto bg-white" style={{"width":"343px"}}>
             <div className="mt-5 mb-5">
                 <img src={image} style={{"height":"120px","max-width":"120px"}}></img>
             </div>
