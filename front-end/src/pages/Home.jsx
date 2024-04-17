@@ -51,7 +51,7 @@ const Home = ()=>{
             </div>
             <div>
                 <b>Question 3:</b>
-                <p>I have created a responsive grid with product card </p>
+                <p>I have created a responsive grid with product cards, it will change the number of column depend screen size </p>
             </div>
             <div className="m-4 product-table w-auto flex relative grid gap-4 xl:grid-cols-4 lg:grid-cols-3">
                 {products.map((product,index)=>{
